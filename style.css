@@ -126,32 +126,109 @@ nav.second{
 /*JUMBOTRON NAVBAR*/
 .jumbotron{
     background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
-    height: 800px;
+    /* height: 800px; */
     background-size: cover;
     background-position: center;
     width: 100%;
     margin-top: 60px;
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .jumbotron .row{
-    padding-top: 100px;
     text-align: center;
 }
 
 .welcome{
     color: white;
-    padding-top: 100px;
+}
+
+.jumbotron .welcome>h1{
+    font-weight: bold;
+}
+
+.jumbotron .welcome>p{
+    font-size: 23px;
 }
 
 .singup>div{
     margin: 0 auto;
     background-color: white;
     border-radius: 8px;
-    width: 400px;
-    height: 500px;
+    width: 380px;
+    content: '';
+    display: table;
+    clear: both;
 }
 
+.h3-box{
+    background-color: #f3f5f9;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.h3-box>h3{
+    margin-top: 0;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
 
+.input-box{
+    padding: 30px;
+}
+
+.form-group>input{
+    padding: 25px 10px;
+}
+.form-group>input::placeholder{
+    font-size: 17px;
+}
+.form-group>input:focus{
+    border-color: #006aff;
+    box-shadow: none;
+}
+
+.input-box>button{
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.input-box>button:hover{
+    background-color: #1633ff;
+}
+.singup-google-box{
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top:solid 1px rgb(229,232,237);
+}
+
+.singup-google-box>button:first-child{
+    width: 250px;
+    margin-right: 5px;
+    padding: 15px 0px;
+    font-size: 18px;
+}
+
+.singup-google-box>button:last-child{
+    margin: 25px 0px;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+.singup-google-box>button:hover{
+    border: solid 1px black;
+    color: black;
+}
+
+.jumbotron .singup p{
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+}
 /********************************/
 /**********MEDIA QUERY***********/
 /********************************/
@@ -186,6 +263,16 @@ nav.second{
     .burger-menu-box{
         visibility: hidden;
     }
+
+    .jumbotron .row{
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .welcome{
+        padding-top: 100px;
+    }
+
 }
 
 /*VERY LARGE*/
@@ -207,5 +294,14 @@ nav.second{
 
     .burger-menu-box{
         visibility: hidden;
+    }
+
+    .jumbotron .row{
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .welcome{
+        padding-top: 100px;
     }
 }
