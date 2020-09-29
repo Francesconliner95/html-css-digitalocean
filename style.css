@@ -132,6 +132,26 @@ nav.second{
     width: 100%;
     margin-top: 60px;
 }
+
+.jumbotron .row{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.welcome{
+    color: white;
+    padding-top: 100px;
+}
+
+.singup>div{
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    width: 400px;
+    height: 500px;
+}
+
+
 /********************************/
 /**********MEDIA QUERY***********/
 /********************************/
