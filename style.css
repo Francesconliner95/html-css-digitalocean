@@ -246,6 +246,13 @@ section.jumbotron{
     padding-top: 10px;
 }
 
+.jumbotron p>a{
+    color: white;
+}
+
+.jumbotron p>a:hover{
+    text-decoration-style:dotted;
+}
 /*PARTNER*/
 
 .partner{
@@ -264,6 +271,10 @@ section.jumbotron{
 
 .partner a{
     font-weight: bold;
+}
+
+.partner a:hover{
+    text-decoration: none;
 }
 
 .partner .row>div:last-of-type{
@@ -315,6 +326,56 @@ li>a:hover{
 .top>div>p,
 .bottom>div>p{
     font-size: 15px;
+}
+
+/*DESIGN*/
+section.design{
+    background-color: #f3f5f9;
+    padding-bottom: 70px;
+}
+
+.design p{
+    font-weight: lighter;
+    font-size: 21px;
+}
+
+.carosello{
+    padding: 30px 0;
+}
+
+.carosello>div i{
+    padding-top: 220px;
+}
+
+.carosello>div img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 26px 40px 0px rgba(170,170,170,1);
+}
+
+.carosello>div p{
+    padding-top: 35px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.slider{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+.slider>span{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid 2px #006aff;
+    margin: 0 5px;
+}
+
+.slider>span:hover{
+    background-color: #031b4e;
+    cursor: pointer;
 }
 
 /********************************/
@@ -393,6 +454,10 @@ li>a:hover{
     .bottom>div{
         text-align: left;
         padding-right: 50px;
+    }
+
+    .carosello>div{
+        visibility: visible;
     }
 }
 
