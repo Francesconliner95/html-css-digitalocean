@@ -1,6 +1,6 @@
 /*EXTRA SMALL*/   /*MOBILE FIRST*/
 .dark-blue{
-    color: hsl(221,93%,16%);
+    color: #031b4e;
 }
 .text-gray{
     color: #5b6987;
@@ -20,6 +20,20 @@
     border-radius: 5px;
     border: solid 1px #006aff;
     font-weight: bold;
+}
+
+.row h2{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.row h3{
+    /* padding-top: 40px;
+    padding-bottom: 10px; */
+    font-weight: bold;
+    font-size: 20px;
 }
 /*FIRST NAVBAR*/
 
@@ -256,6 +270,53 @@ section.jumbotron{
     padding-bottom: 40px;
 }
 
+/*CONFIGURATION*/
+
+.configuration .row:first-child{
+    padding: 0 50px;
+    margin-bottom: 70px;
+}
+
+.configuration p{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.conf-menu-box{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+ul{
+     list-style-type: none;
+}
+li{
+    display: inline-block;
+    float: left;
+}
+li>a{
+    padding: 20px;
+    border-bottom: solid 2px #5b6987;
+    color: #5b6987;
+    display: inline-block;
+}
+li>a:hover{
+    border-bottom: solid 4px #006aff;
+    color: #031b4e;
+    text-decoration: none;
+}
+
+.top>div,
+.bottom>div{
+    padding-bottom: 40px;
+}
+
+.top>div>p,
+.bottom>div>p{
+    font-size: 15px;
+}
+
 /********************************/
 /**********MEDIA QUERY***********/
 /********************************/
@@ -300,35 +361,42 @@ section.jumbotron{
         padding-top: 100px;
     }
 
+    .conf-menu-box{
+        margin-left: 0;
+
+    }
+
+    li>a{
+        border-left: solid 2px #5b6987;
+        color: #5b6987;
+        border-bottom: none;
+        font-weight: bold;
+    }
+
+    li>a:hover{
+        border-left: solid 4px #006aff;
+        color: #031b4e;
+        text-decoration: none;
+        border-bottom: none;
+    }
+
+    ul{
+        text-align: left;
+    }
+    li{
+        display: block;
+        text-align: left;
+        float: none;
+    }
+
+    .top>div,
+    .bottom>div{
+        text-align: left;
+        padding-right: 50px;
+    }
 }
 
 /*VERY LARGE*/
 @media all and (min-width: 1201px){
-    nav.first{
-        visibility: visible;
-    }
 
-    nav.second{
-        position: absolute;
-        top: 39px;
-        left: 0;
-    }
-
-    .second .second-menu,
-    .second .sing{
-        visibility: visible;
-    }
-
-    .burger-menu-box{
-        visibility: hidden;
-    }
-
-    .jumbotron .row{
-        padding-top: 100px;
-        padding-bottom: 80px;
-    }
-
-    .welcome{
-        padding-top: 100px;
-    }
 }
