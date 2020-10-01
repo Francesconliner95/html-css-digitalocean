@@ -373,7 +373,7 @@ section.design{
 }
 
 .slider>span:hover{
-    background-color: #031b4e;
+    background-color: #006aff;
     cursor: pointer;
 }
 
@@ -383,6 +383,7 @@ section.design{
 }
 
 .business a{
+    font-size: 17px;
     font-weight: bold;
     color: #006aff;
 }
@@ -457,6 +458,72 @@ padding-right: 30px;
     color: #1633ff;
     text-decoration: none;
 }
+
+/***FEEDBACK***/
+section.feedback{
+    background-color: #f3f5f9;
+    padding-bottom: 70px;
+}
+
+.feedback p{
+    font-weight: lighter;
+    font-size: 21px;
+}
+
+.feedback p>a{
+    color: #006aff;
+}
+
+.feedback p>a:hover{
+    color: #1633ff;
+    text-decoration: none;
+}
+
+.slide{
+    background-color: white;
+    position: relative;
+}
+
+div.slide>img{
+    width: 30%;
+    box-shadow: none;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.feedback .slide-text>p{
+    display: inline;
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+.feedback .slide-text>a{
+    font-size: 18px;
+}
+
+#marks-opening-left{
+    width: 20px;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+
+#marks-opening-right{
+    width: 10px;
+    transform: rotate(180deg);
+}
+
+.feedback h4{
+    color: #5b6987;
+    padding-top: 30px;
+}
+
+.feedback h4+p{
+    font-size: 13px;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
 /********************************/
 /**********MEDIA QUERY***********/
 /********************************/
