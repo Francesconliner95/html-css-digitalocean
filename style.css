@@ -402,6 +402,8 @@ section.design{
 .data-center{
     background-color: #031b4e;
     background-image: url("https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg");
+    background-size: cover;
+    background-position: center;
     width: 100%;
     /* height: 500px; */
     padding: 70px 0;
@@ -499,6 +501,7 @@ div.slide>img{
 
 .feedback .slide-text>a{
     font-size: 18px;
+    text-decoration: none;
 }
 
 #marks-opening-left{
@@ -522,6 +525,24 @@ div.slide>img{
     font-size: 13px;
     padding-top: 0;
     padding-bottom: 60px;
+}
+
+/*GET STARTED*/
+
+.get-started{
+    background-image: url('https://prismic-io.s3.amazonaws.com/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg');
+    width: 100%;
+}
+
+.get-started h2{
+    padding-top: 10px;
+    margin-top: 55px;
+}
+
+.get-started div>button{
+    padding: 20px 30px;
+    font-size: 18px;
+    margin: 55px 0;
 }
 
 /********************************/
@@ -627,6 +648,16 @@ div.slide>img{
 
     .tab-row>a{
         padding-top: 0px;
+    }
+
+    .get-started .row>div>h2
+    {
+        text-align: left;
+    }
+
+    .get-started .row>div>button
+    {
+        text-align: right;
     }
 
 }
