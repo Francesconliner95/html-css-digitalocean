@@ -6,6 +6,9 @@
     color: #5b6987;
 }
 
+.text-white{
+    color: #fff;
+}
 .button-blue{
     background-color: #006aff;
     color: #fff;
@@ -384,10 +387,76 @@ section.design{
     color: #006aff;
 }
 
+.business a:hover{
+    color: #1633ff;
+    text-decoration: none;
+}
+
 .business .row>div{
     padding: 60px 0;
 }
 
+/*DATA CENTER*/
+
+.data-center{
+    background-color: #031b4e;
+    background-image: url("https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg");
+    width: 100%;
+    /* height: 500px; */
+    padding: 70px 0;
+}
+
+.data-center .row:first-child{
+    padding: 0 130px;
+}
+
+.data-center h2+p{
+    font-size: 19px;
+}
+
+.data-center p>a{
+    color: #006aff;
+}
+
+.data-center p>a:hover{
+    color: #1633ff;
+    text-decoration: none;
+}
+
+.data-center .row:last-child{
+    padding: 50px 0;
+}
+
+.tab-row{
+    margin: 0px 150px;
+    padding: 10px 0;
+    border-bottom: solid 1px grey;
+}
+
+.tab-row>strong{
+padding-left: 10px;
+padding-right: 30px;
+}
+
+.tab-city{
+    display: inline-block;
+}
+
+.tab-city>p{
+    padding-right: 30px;
+    margin: 0;
+}
+
+.tab-row>a{
+    float: right;
+    color: #08c6ce;
+    font-weight: bold;
+}
+
+.tab-row>a:hover{
+    color: #1633ff;
+    text-decoration: none;
+}
 /********************************/
 /**********MEDIA QUERY***********/
 /********************************/
@@ -479,6 +548,20 @@ section.design{
         padding-right: 50px;
         text-align: left;
     }
+
+    .data-center .row:last-child{
+        margin: 0 20px;
+    }
+
+    .tab-row{
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .tab-row>a{
+        padding-top: 0px;
+    }
+
 }
 
 /*VERY LARGE*/
