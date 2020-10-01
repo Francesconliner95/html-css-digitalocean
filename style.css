@@ -343,10 +343,6 @@ section.design{
     padding: 30px 0;
 }
 
-.carosello>div i{
-    padding-top: 220px;
-}
-
 .carosello>div img{
     width: 100%;
     border-radius: 10px;
@@ -376,6 +372,20 @@ section.design{
 .slider>span:hover{
     background-color: #031b4e;
     cursor: pointer;
+}
+
+/*BUSINESS*/
+.business p{
+    font-size: 17px;
+}
+
+.business a{
+    font-weight: bold;
+    color: #006aff;
+}
+
+.business .row>div{
+    padding: 60px 0;
 }
 
 /********************************/
@@ -458,6 +468,16 @@ section.design{
 
     .carosello>div{
         visibility: visible;
+    }
+
+    .carosello>div i{
+     padding-top: 220px;
+    }
+
+    .business .row>div{
+        padding: 60px 0;
+        padding-right: 50px;
+        text-align: left;
     }
 }
 
