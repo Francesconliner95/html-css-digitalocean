@@ -545,6 +545,11 @@ div.slide>img{
     margin: 55px 0;
 }
 
+.get-started div>button:hover{
+    background: rgba(225,225,225,0.9)
+}
+
+
 /********************************/
 /**********MEDIA QUERY***********/
 /********************************/
@@ -561,10 +566,12 @@ div.slide>img{
 /*LARGE*/
 @media all and (min-width: 993px){
 
+/*FIRST NAVBAR*/
     nav.first{
         visibility: visible;
     }
 
+/*SECOND NAVBAR*/
     nav.second{
         position: absolute;
         top: 39px;
@@ -580,6 +587,7 @@ div.slide>img{
         visibility: hidden;
     }
 
+/**JUMBOTRON**/
     .jumbotron .row{
         padding-top: 100px;
         padding-bottom: 80px;
@@ -593,6 +601,8 @@ div.slide>img{
         margin-left: 0;
 
     }
+
+/*CONFIGURATION*/
 
     li>a{
         border-left: solid 2px #5b6987;
@@ -617,6 +627,9 @@ div.slide>img{
         float: none;
     }
 
+
+/*DESIGN*/
+
     .top>div,
     .bottom>div{
         text-align: left;
@@ -631,12 +644,14 @@ div.slide>img{
      padding-top: 220px;
     }
 
+/*BUSINESS*/
     .business .row>div{
         padding: 60px 0;
         padding-right: 50px;
         text-align: left;
     }
 
+/*DATA CENTER*/
     .data-center .row:last-child{
         margin: 0 20px;
     }
@@ -650,6 +665,7 @@ div.slide>img{
         padding-top: 0px;
     }
 
+/*GET STARTED*/
     .get-started .row>div>h2
     {
         text-align: left;
