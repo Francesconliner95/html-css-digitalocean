@@ -406,7 +406,8 @@ section.design{
     background-position: center;
     width: 100%;
     /* height: 500px; */
-    padding: 70px 0;
+    /* padding-top: 30px; */
+    padding-bottom: 100px;
 }
 
 .data-center .row:first-child{
@@ -415,6 +416,7 @@ section.design{
 
 .data-center h2+p{
     font-size: 19px;
+    padding-bottom: 50px;
 }
 
 .data-center p>a{
@@ -426,37 +428,22 @@ section.design{
     text-decoration: none;
 }
 
-.data-center .row:last-child{
-    padding: 50px 0;
-}
-
 .tab-row{
-    margin: 0px 150px;
-    padding: 10px 0;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
     border-bottom: solid 1px grey;
+    content: '';
+    display: table;
+    clear: both;
 }
 
-.tab-row>strong{
-padding-left: 10px;
-padding-right: 30px;
-}
-
-.tab-city{
-    display: inline-block;
-}
-
-.tab-city>p{
-    padding-right: 30px;
-    margin: 0;
-}
-
-.tab-row>a{
-    float: right;
+.tab-row a{
     color: #08c6ce;
     font-weight: bold;
 }
 
-.tab-row>a:hover{
+.tab-row a:hover{
     color: #1633ff;
     text-decoration: none;
 }
@@ -741,9 +728,6 @@ footer{
     }
 
 /*DATA CENTER*/
-    .data-center .row:last-child{
-        margin: 0 20px;
-    }
 
     .tab-row{
         margin: 0;
