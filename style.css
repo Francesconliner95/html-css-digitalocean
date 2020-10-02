@@ -549,7 +549,96 @@ div.slide>img{
     background: rgba(225,225,225,0.9)
 }
 
+/**FOOTER**/
+footer{
+    background-color: #031b4e;
+}
 
+.f-top{
+    padding-bottom: 60px;
+    border-bottom: solid 2px gray;
+}
+
+.f-top>div>p{
+    padding-top: 80px;
+    font-size: 16px;
+}
+
+.f-top>div>a{
+    display: block;
+    font-size: 16px;
+}
+
+.f-top>div>a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.f-bottom{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.f-bottom span{
+    padding-left: 20px;
+}
+
+.f-bottom>div:first-child{
+    padding-bottom: 20px;
+}
+
+.f-bottom>div:last-child{
+    padding-top: 5px;
+}
+.f-bottom a{
+    color: rgba(255,255,255,0.8);
+    padding: 5px 6px;
+    display: inline-block;
+}
+
+.f-bottom a:hover{
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+
+.social-cont{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+.f-bottom #glassdoor{
+    /* width: 25px; */
+    position: absolute;
+    top: -9px;
+    left: -9px;
+
+    opacity: 0.8;
+}
+
+.f-bottom #glassdoor>img{
+    width: 25px;
+    filter: invert();
+}
+
+
+
+.f-bottom #buildinnyc{
+    position: absolute;
+    top: -12px;
+    left: -3px;
+    opacity: 0.8;
+}
+
+.f-bottom #buildinnyc>img{
+    transform: scale(1.2);
+}
+
+.f-bottom #glassdoor:hover,
+.f-bottom #buildinnyc:hover{
+    opacity: 1;
+}
 /********************************/
 /**********MEDIA QUERY***********/
 /********************************/
@@ -673,6 +762,10 @@ div.slide>img{
 
     .get-started .row>div>button
     {
+        text-align: right;
+    }
+
+    .f-bottom>div:last-child{
         text-align: right;
     }
 
